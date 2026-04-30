@@ -1,0 +1,149 @@
+/* (Kode Reset & Global tetap sama) */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #2d3436;
+}
+
+/* (Navigasi, Container, Hero, Grid, Card tetap sama) */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background: #2d3436;
+    color: white;
+}
+
+.logo span {
+    color: #00cec9;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 60px 0;
+    background: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+h1 span {
+    color: #0984e3;
+}
+
+.grid-layout {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 300px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dfe6e9;
+    border-radius: 8px;
+    outline: none; /* Tambahan agar rapi saat diklik */
+}
+
+input:focus, textarea:focus {
+    border-color: #0984e3; /* Highlight biru saat fokus */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #0984e3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s; /* Animasi halus saat hover */
+}
+
+button:hover {
+    background: #00a2c6;
+}
+
+.msg-item {
+    border-bottom: 1px solid #eee;
+    padding: 15px; /* Tambah padding dalam agar warna background terlihat bagus */
+    margin-bottom: 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* TANTANGAN 3: Warna spesifik berdasarkan subjek */
+.bg-proyek {
+    background-color: #e3fcef; /* Hijau Muda */
+    border-left: 5px solid #00b894;
+}
+
+.bg-tanya {
+    background-color: #e3f2fd; /* Biru Muda */
+    border-left: 5px solid #0984e3;
+}
+
+.bg-kolaborasi {
+    background-color: #f3e5f5; /* Ungu Muda */
+    border-left: 5px solid #6c5ce7;
+}
+
+.msg-item h4 {
+    color: #2d3436;
+    font-size: 1rem;
+    margin-bottom: 3px;
+}
+
+.msg-item small {
+    color: #636e72;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
